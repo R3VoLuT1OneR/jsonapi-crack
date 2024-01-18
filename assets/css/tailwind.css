@@ -1,0 +1,26 @@
+/* import the necessary styles for Vue Flow to work */
+@import '@vue-flow/core/dist/style.css';
+
+/* import the default theme, this is optional but generally recommended */
+@import '@vue-flow/core/dist/theme-default.css';
+
+/* import default controls styles */
+@import '@vue-flow/controls/dist/style.css';
+
+/* import default minimap styles */
+@import '@vue-flow/minimap/dist/style.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.node {
+    @apply w-auto h-auto bg-amber-50 rounded-lg shadow-lg p-2;
+    @apply overflow-hidden;
+}
+
+.jse-navigation-bar {
+    .jse-navigation-bar-item:first-child {
+        margin-left: 2em;
+    }
+}
