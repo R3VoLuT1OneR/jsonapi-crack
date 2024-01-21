@@ -1,18 +1,14 @@
-/* import the necessary styles for Vue Flow to work */
-@import '@vue-flow/core/dist/style.css';
+@import "vueflow.css";
+@import "primevue.css";
 
-/* import the default theme, this is optional but generally recommended */
-@import '@vue-flow/core/dist/theme-default.css';
+@layer tailwind-base {
+    @tailwind base;
+}
 
-/* import default controls styles */
-@import '@vue-flow/controls/dist/style.css';
-
-/* import default minimap styles */
-@import '@vue-flow/minimap/dist/style.css';
-
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@layer tailwind-utilities {
+    @tailwind components;
+    @tailwind utilities;
+}
 
 .node {
     @apply w-auto h-auto bg-amber-50 rounded-lg shadow-lg p-2;

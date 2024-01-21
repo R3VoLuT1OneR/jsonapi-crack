@@ -4,3 +4,9 @@
 /* import the default theme, this is optional but generally recommended */
 @import '@vue-flow/core/dist/theme-default.css';
 
+/* import default controls styles */
+@import '@vue-flow/controls/dist/style.css';
+
+/* import default minimap styles */
+@import '@vue-flow/minimap/dist/style.css';
+

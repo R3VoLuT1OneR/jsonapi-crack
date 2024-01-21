@@ -11,6 +11,9 @@ const { loadTestJson, loadTestJson2 } = useJson();
     <li class="pl-1 pr-1">
       <button @click="loadTestJson2">Test JSON 2</button>
     </li>
+    <li class="ml-auto">
+      <RequestInput />
+    </li>
 <!--    <li class="ml-auto">-->
 <!--      <nuxt-link to="/about">About</nuxt-link>-->
 <!--    </li>-->

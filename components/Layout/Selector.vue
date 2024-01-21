@@ -9,11 +9,11 @@ const selected = computed({
 </script>
 
 <template>
-  <select v-model="selected" class="bg-blue-100">
+  <BSelect v-model="selected" class="bg-blue-100">
     <option v-for="option in options" :value="option.value" >
       {{ option.label }}
     </option>
-  </select>
+  </BSelect>
 
 </template>
 
